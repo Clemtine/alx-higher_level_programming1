@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-def safe_print_division(a, b):
+def safe_function(fct, *args):
+    import sys
     try:
-        result = a / b
-    except:
+        result = fct(*args)
+    except Exception as i:
+        sys.stderr.write("Exception: {}\n".format(i))
         result = None
-    finally:
-        print("Inside result: {}".format(result))
-        return (result)
+
+    return (result)
