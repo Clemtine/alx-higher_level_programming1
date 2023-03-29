@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Example Google style docstrings.
 
-s module demonstrates documentation as specified by the `Google Python
+This module demonstrates documentation as specified by the `Google Python
 Style Guide`_. Docstrings may extend over multiple lines. Sections are created
-with a section header and a colon followed by a block of indented text
+with a section header and a colon followed by a block of indented text.
 
 Example:
     Examples can be given using either the ``Example`` or ``Examples``
@@ -11,9 +11,9 @@ Example:
     literal blocks::
 """
 
+
 class Node:
     """ A class that defines a square by its size
-
     This defines an empty square class.
     As instructed, no method or attribute is created
     """
@@ -54,7 +54,6 @@ class Node:
 
 class SinglyLinkedList:
     """ A class that defines a square by its size
-
     This defines an empty square class.
     As instructed, no method or attribute is created
     """
