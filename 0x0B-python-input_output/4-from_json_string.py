@@ -2,7 +2,8 @@
 """ Module that contains a function that returns an object by
 a JSON representation
 """
-import 
+import json
+
 
 def from_json_string(my_str):
     """ Function that returns an object by a JSON representation
@@ -12,7 +13,6 @@ def from_json_string(my_str):
 
     Raises:
         Exception: when the string can't be decoded
-
 
     """
     return json.loads(my_str)
