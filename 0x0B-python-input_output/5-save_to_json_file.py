@@ -4,6 +4,7 @@ a JSON representation
 """
 import json
 
+
 def save_to_json_file(my_obj, filename):
     """ Function that writes an object to a text file
     by a JSON representation
